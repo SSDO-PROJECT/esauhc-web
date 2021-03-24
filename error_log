@@ -1,0 +1,16 @@
+[26-Feb-2021 08:23:09 UTC] PHP Warning:  Uncaught ErrorException: require(/home/esauhcadmin/public_html/ESAUHC/routes/web.php): failed to open stream: No such file or directory in /home/esauhcadmin/public_html/ESAUHC/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php:35
+Stack trace:
+#0 /home/esauhcadmin/public_html/ESAUHC/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/e...', '/home/esauhcadm...', 35, Array)
+#1 /home/esauhcadmin/public_html/ESAUHC/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require()
+#2 /home/esauhcadmin/public_html/ESAUHC/vendor/laravel/framework/src/Illuminate/Routing/Router.php(423): Illuminate\Routing\RouteFileRegistrar->register('/home/esauhcadm...')
+#3 /home/esauhcadmin/public_html/ESAUHC/vendor/laravel/framework/src/Illuminate/Routing/Router.php(380): Illuminate\Routing\Router->loadRoutes('/home/esauhcadm...')
+#4 /home/esauhcadmin/public_html/ESAUHC/vendor/laravel/fram in /home/esauhcadmin/public_html/ESAUHC/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[26-Feb-2021 08:23:09 UTC] PHP Fatal error:  Illuminate\Routing\RouteFileRegistrar::register(): Failed opening required '/home/esauhcadmin/public_html/ESAUHC/routes/web.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/esauhcadmin/public_html/ESAUHC/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[26-Feb-2021 08:26:54 UTC] PHP Warning:  Uncaught ErrorException: require(/home/esauhcadmin/public_html/ESAUHC/routes/web.php): failed to open stream: No such file or directory in /home/esauhcadmin/public_html/ESAUHC/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php:35
+Stack trace:
+#0 /home/esauhcadmin/public_html/ESAUHC/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/e...', '/home/esauhcadm...', 35, Array)
+#1 /home/esauhcadmin/public_html/ESAUHC/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require()
+#2 /home/esauhcadmin/public_html/ESAUHC/vendor/laravel/framework/src/Illuminate/Routing/Router.php(423): Illuminate\Routing\RouteFileRegistrar->register('/home/esauhcadm...')
+#3 /home/esauhcadmin/public_html/ESAUHC/vendor/laravel/framework/src/Illuminate/Routing/Router.php(380): Illuminate\Routing\Router->loadRoutes('/home/esauhcadm...')
+#4 /home/esauhcadmin/public_html/ESAUHC/vendor/laravel/fram in /home/esauhcadmin/public_html/ESAUHC/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[26-Feb-2021 08:26:54 UTC] PHP Fatal error:  Illuminate\Routing\RouteFileRegistrar::register(): Failed opening required '/home/esauhcadmin/public_html/ESAUHC/routes/web.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/esauhcadmin/public_html/ESAUHC/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
